@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868238ee-27b9-4f14-a68a-248ce367c6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/AddToCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/AddToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Checkout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/test-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/test-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/resources/features/Login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
       <recent name="D:\Satria\Project\Java\SauceDemo\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: AddToCart">
+  <component name="RunManager" selected="Cucumber Java.Feature: Checkout">
     <configuration name="Feature: AddToCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/AddToCart.feature" />
@@ -78,14 +72,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" />
       <option name="GLUE" value="cucumber.stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SauceDemo" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: Checkout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,9 +91,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" />
       <option name="GLUE" value="cucumber.stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SauceDemo" />
@@ -153,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Checkout" />
         <item itemvalue="Cucumber Java.Feature: AddToCart" />
         <item itemvalue="JUnit.RunLogin" />
         <item itemvalue="Cucumber Java.Scenario: Add Product to Cart" />
         <item itemvalue="Cucumber Java.Feature: Login (1)" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
       </list>
     </recent_temporary>
   </component>

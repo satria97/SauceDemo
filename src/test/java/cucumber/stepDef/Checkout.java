@@ -57,7 +57,7 @@ public class Checkout {
             throw new RuntimeException(e);
         }
 
-//        driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-backpack']")).click();
+        driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-backpack']")).click();
         driver.findElement(By.xpath("//*[@id='shopping_cart_container']/a")).click();
         String qty = driver.findElement(By.xpath("//*[@id=\"cart_contents_container\"]/div/div[1]/div[3]/div[1]")).getText();
         if (qty.equals("1")) {
@@ -127,7 +127,6 @@ public class Checkout {
             String successCheckout = driver.findElement(By.xpath("//h2[contains(text(), 'Thank you for your order!')]")).getText();
             Assert.assertNotEquals(successCheckout, "Thank you for your order!");
         }
-
         driver.close();
     }
 }

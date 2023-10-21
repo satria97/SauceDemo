@@ -21,7 +21,7 @@ public class Checkout {
     WebDriver driver;
     String baseUrl = "https://www.saucedemo.com/";
 
-    @Given("product is already in the cart")
+    @Given("Product is already in the cart")
     public void product_is_already_in_the_cart() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions opt = new ChromeOptions();
@@ -68,7 +68,8 @@ public class Checkout {
             Assert.assertNotEquals(removeButton, "Remove");
         }
     }
-    @When("user click Checkout button")
+
+    @When("User click Checkout button")
     public void user_click_checkout_button() {
         driver.findElement(By.id("checkout")).click();
     }

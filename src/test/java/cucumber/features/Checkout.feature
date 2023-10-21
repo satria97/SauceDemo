@@ -2,8 +2,8 @@ Feature: Checkout
 
   @Negative
   Scenario Outline: User cannot checkout product
-    Given product is already in the cart
-    When user click Checkout button
+    Given Product is already in the cart
+    When User click Checkout button
     Then user input <firstname> as firstname
     And user input <lastname> as lastname
     And user input <postalcode> as postal code
@@ -18,8 +18,8 @@ Feature: Checkout
 
   @Positive
   Scenario Outline: User can checkout product
-    Given product is already in the cart
-    When user click Checkout button
+    Given Product is already in the cart
+    When User click Checkout button
     Then user input <firstname> as firstname
     And user input <lastname> as lastname
     And user input <postalcode> as postal code

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868238ee-27b9-4f14-a68a-248ce367c6cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/RemoveInCart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/RemoveInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Satria/Project/Java/SauceDemo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Satria/Project/Java/SauceDemo",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber" />
       <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber\features" />
+      <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber\" />
+      <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber\runner" />
       <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber\resources\features" />
-      <recent name="D:\Satria\Project\Java\SauceDemo\src\test\resources\features" />
-      <recent name="D:\Satria\Project\Java\SauceDemo\src\test\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: Checkout">
@@ -109,15 +117,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add Product to Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: RemoveInCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/AddToCart.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/features/RemoveInCart.feature" />
       <option name="GLUE" value="cucumber.stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SauceDemo" />
-      <option name="NAME_FILTER" value="^Add Product to Cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add Product to Cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add Product to Cart" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RemoveInCart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -147,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: Checkout" />
+        <item itemvalue="Cucumber Java.Feature: RemoveInCart" />
         <item itemvalue="Cucumber Java.Feature: AddToCart" />
         <item itemvalue="Cucumber Java.Feature: Login (1)" />
         <item itemvalue="JUnit.RunLogin" />
-        <item itemvalue="Cucumber Java.Scenario: Add Product to Cart" />
       </list>
     </recent_temporary>
   </component>

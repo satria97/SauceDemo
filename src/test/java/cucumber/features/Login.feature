@@ -9,7 +9,9 @@ Feature: Login
     Then user verify <status> login result
 
     Examples:
-    | username      | password     | status            |
-    | failed_login  | failed_login | failed            |
-    | standard_user | secret_sauce | success           |
+    | username      | password     | status          |
+    | failed_login  | failed_login | failed          |
+    |               | secret_sauce | user_empty      |
+    | standard_user |              | password_empty  |
+    | standard_user | secret_sauce | success         |
 

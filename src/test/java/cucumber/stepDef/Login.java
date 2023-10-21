@@ -4,7 +4,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en_scouse.An;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -47,12 +46,18 @@ public class Login {
 
     @Then("user verify (.*) login result$")
     public void user_verify_success_login_result(String status) {
-        if (status.equals("success")) {
-            String dashboard = driver.findElement(By.xpath("//div[contains(text(), 'Swag Labs')]")).getText();
-            Assert.assertEquals(dashboard, "Swag Labs");
-        } else {
+        if (status.equals("failed")) {
             String errorLogin = driver.findElement(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3")).getText();
             Assert.assertEquals(errorLogin, "Epic sadface: Username and password do not match any user in this service");
+        } else if (status.equals("user_empty")) {
+            String errorUser = driver.findElement(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3")).getText();
+            Assert.assertEquals(errorUser, "Epic sadface: Username is required");
+        } else if (status.equals("password_empty")) {
+            String errorPass = driver.findElement(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3")).getText();
+            Assert.assertEquals(errorPass, "Epic sadface: Password is required");
+        } else {
+            String dashboard = driver.findElement(By.xpath("//div[contains(text(), 'Swag Labs')]")).getText();
+            Assert.assertEquals(dashboard, "Swag Labs");
         }
         driver.close();
     }

@@ -78,5 +78,6 @@ public class AddToCart {
             String removeButton = driver.findElement(By.id("remove-sauce-labs-backpack")).getText();
             Assert.assertNotEquals(removeButton, "Remove");
         }
+        driver.close();
     }
 }

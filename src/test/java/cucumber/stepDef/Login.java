@@ -54,5 +54,6 @@ public class Login {
             String errorLogin = driver.findElement(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3")).getText();
             Assert.assertEquals(errorLogin, "Epic sadface: Username and password do not match any user in this service");
         }
+        driver.close();
     }
 }

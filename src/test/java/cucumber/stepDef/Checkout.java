@@ -58,15 +58,11 @@ public class Checkout {
         }
 
         driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-backpack']")).click();
+    }
+
+    @When("User click the Cart icon")
+    public void user_click_the_cart_icon() {
         driver.findElement(By.xpath("//*[@id='shopping_cart_container']/a")).click();
-        String qty = driver.findElement(By.xpath("//*[@id=\"cart_contents_container\"]/div/div[1]/div[3]/div[1]")).getText();
-        if (qty.equals("1")) {
-            String removeButton = driver.findElement(By.id("remove-sauce-labs-backpack")).getText();
-            Assert.assertEquals(removeButton, "Remove");
-        } else {
-            String removeButton = driver.findElement(By.id("remove-sauce-labs-backpack")).getText();
-            Assert.assertNotEquals(removeButton, "Remove");
-        }
     }
 
     @When("User click Checkout button")

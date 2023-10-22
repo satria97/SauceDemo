@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868238ee-27b9-4f14-a68a-248ce367c6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/RemoveInCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/RemoveInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Checkout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/RunLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/features/RemoveInCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/features/RemoveInCart.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/RemoveInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/RemoveInCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Satria/Project/Java/SauceDemo",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Satria/Project/Java/SauceDemo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Satria\Project\Java\SauceDemo\src\test\java\cucumber" />

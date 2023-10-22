@@ -1,6 +1,6 @@
 Feature: Remove In Cart
 
-  Scenario: Remove product in cart
+  Scenario: Removing product in the Cart
     Given Products is already in the Cart
     When User click icon Cart
     Then User click Remove button

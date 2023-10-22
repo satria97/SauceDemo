@@ -56,8 +56,8 @@ public class Login {
             String errorPass = driver.findElement(By.xpath("//*[@id='login_button_container']/div/form/div[3]/h3")).getText();
             Assert.assertEquals(errorPass, "Epic sadface: Password is required");
         } else {
-            String dashboard = driver.findElement(By.xpath("//div[contains(text(), 'Swag Labs')]")).getText();
-            Assert.assertEquals(dashboard, "Swag Labs");
+            String dashboard = driver.findElement(By.xpath("//span[contains(text(), 'Product')]")).getText();
+            Assert.assertEquals(dashboard, "Product");
         }
         driver.close();
     }

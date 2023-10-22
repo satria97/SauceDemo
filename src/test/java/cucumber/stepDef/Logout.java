@@ -72,8 +72,8 @@ public class Logout {
     public void user_verify_status_logout() {
         String status = "success";
         if (status.equals("failed")) {
-            String dashboard = driver.findElement(By.xpath("//span[contains(text(), 'Product')]")).getText();
-            Assert.assertEquals(dashboard, "Product");
+            String dashboard = driver.findElement(By.xpath("//span[contains(text(), 'Products')]")).getText();
+            Assert.assertEquals(dashboard, "Products");
         } else {
             WebElement loginForm = driver.findElement(By.id("login_button_container"));
             Assert.assertTrue(loginForm.isDisplayed());
